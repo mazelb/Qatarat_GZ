@@ -1,0 +1,58 @@
+{
+  "about_us": "من نحن",
+  "our_work": "عملنا",
+  "donate": {
+    "title": "تبرع الآن",
+    "pageTitle": "دعم قضيتنا",
+    "campaignTitle": "تبرع لـ {{campaign}}",
+    "selectAmount": "اختر المبلغ",
+    "customAmount": "مبلغ مخصص",
+    "frequency": "تكرار التبرع",
+    "frequency": {
+      "one-time": "مرة واحدة",
+      "monthly": "شهري",
+      "annual": "سنوي"
+    },
+    "campaign": "اختر الحملة",
+    "selectCampaign": "اختر حملة",
+    "submitButton": "تبرع الآن",
+    "otherWays": "طرق أخرى للدعم",
+    "contactInfo": "للتبرعات الكبيرة أو تبرعات الشركات، يرجى الاتصال بنا على donations@qatarat.org",
+    "thankYou": "شكراً لكرمك!"
+  },
+  "emergency_appeals": "نداءات طارئة",
+  "contact": "اتصل بنا",
+  "donate_now": "تبرع الآن",
+  
+  "hero": {
+    "banner1": {
+      "title": "ساعد في إعادة إعمار غزة",
+      "subtitle": "تبرعك يوفر المساعدة الأساسية للعائلات الفلسطينية المحتاجة"
+    },
+    "banner2": {
+      "title": "الإغاثة الطبية الطارئة",
+      "subtitle": "دعم الإمدادات الطبية العاجلة والرعاية الصحية للجرحى"
+    },
+    "banner3": {
+      "title": "مبادرة المياه النظيفة",
+      "subtitle": "ساعد في توفير المياه النظيفة للعائلات في الأزمات"
+    }
+  },
+  "appeals": {
+    "pageTitle": "نداءات الطوارئ",
+    "pageDescription": "دعمك يحدث فرقًا. انضم إلينا في تقديم المساعدة العاجلة للمحتاجين في فلسطين وخارجها.",
+    "filters": {
+      "all": "جميع النداءات",
+      "urgent": "عاجل",
+      "active": "نشط",
+      "closed": "مكتمل"
+    },
+    "status": {
+      "active": "نشط",
+      "closed": "مكتمل",
+      "urgent": "عاجل"
+    },
+    "donate": "تبرع",
+    "learnMore": "اعرف المزيد"
+  }
+}

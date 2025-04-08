@@ -1,0 +1,11 @@
+<svg width="150" height="50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Palestinian flag colors -->
+    <rect width="150" height="50" fill="#ffffff" />
+    <rect width="150" height="16.67" y="0" fill="#000000" />
+    <rect width="150" height="16.67" y="16.67" fill="#ffffff" />
+    <rect width="150" height="16.67" y="33.33" fill="#007A3D" />
+    <!-- Red triangle -->
+    <polygon points="0,0 0,50 75,25" fill="#CE1126" />
+    <!-- Text -->
+    <text x="85" y="30" font-family="Arial" font-size="14" font-weight="bold" fill="#000">Qatarat</text>
+  </svg>

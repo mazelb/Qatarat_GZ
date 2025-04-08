@@ -1,0 +1,58 @@
+{
+  "about_us": "À Propos",
+  "our_work": "Notre Travail",
+  "donate": {
+    "title": "Faire un Don",
+    "pageTitle": "Soutenez Notre Cause",
+    "campaignTitle": "Faire un don à {{campaign}}",
+    "selectAmount": "Sélectionner un Montant",
+    "customAmount": "Montant Personnalisé",
+    "frequency": "Fréquence de Don",
+    "frequency": {
+      "one-time": "Unique",
+      "monthly": "Mensuel",
+      "annual": "Annuel"
+    },
+    "campaign": "Sélectionner une Campagne",
+    "selectCampaign": "Choisir une campagne",
+    "submitButton": "Faire un Don",
+    "otherWays": "Autres Façons de Soutenir",
+    "contactInfo": "Pour les dons importants ou les dons d'entreprise, veuillez nous contacter à donations@qatarat.org",
+    "thankYou": "Merci pour votre générosité!"
+  },
+  "emergency_appeals": "Appels d'Urgence",
+  "contact": "Contact",
+  "donate_now": "Faire un Don",
+  
+  "hero": {
+    "banner1": {
+      "title": "Aidez à Reconstruire Gaza",
+      "subtitle": "Votre don fournit une aide essentielle aux familles palestiniennes dans le besoin"
+    },
+    "banner2": {
+      "title": "Aide Médicale d'Urgence",
+      "subtitle": "Soutenez les fournitures médicales urgentes et les soins de santé pour les blessés"
+    },
+    "banner3": {
+      "title": "Initiative pour l'Eau Potable",
+      "subtitle": "Aidez à fournir de l'eau potable aux familles en crise"
+    }
+  },
+  "appeals": {
+    "pageTitle": "Appels d'Urgence",
+    "pageDescription": "Votre soutien fait la différence. Rejoignez-nous pour fournir une assistance urgente aux personnes dans le besoin en Palestine et au-delà.",
+    "filters": {
+      "all": "Tous les Appels",
+      "urgent": "Urgent",
+      "active": "Actif",
+      "closed": "Terminé"
+    },
+    "status": {
+      "active": "Actif",
+      "closed": "Terminé",
+      "urgent": "Urgent"
+    },
+    "donate": "Faire un Don",
+    "learnMore": "En Savoir Plus"
+  }
+}

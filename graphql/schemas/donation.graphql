@@ -1,0 +1,76 @@
+type Campaign {
+  id: ID!
+  name: String!
+  description: String
+  isActive: Boolean!
+  imageUrl: String
+  targetAmount: Float
+  raisedAmount: Float
+}
+
+type EmergencyAppeal {
+  id: ID!
+  title: String!
+  description: String!
+  imageUrl: String!
+  status: AppealStatus!
+  targetAmount: Float
+  raisedAmount: Float
+  slug: String!
+  createdAt: String!
+  updatedAt: String!
+}
+
+enum AppealStatus {
+  ACTIVE
+  CLOSED
+  URGENT
+}
+
+enum DonationFrequency {
+  ONE_TIME
+  MONTHLY
+  ANNUAL
+}
+
+type Donation {
+  id: ID!
+  amount: Float!
+  frequency: DonationFrequency!
+  campaign: Campaign!
+  createdAt: String!
+  donorName: String
+  donorEmail: String
+  isAnonymous: Boolean!
+}
+
+input CreateDonationInput {
+  amount: Float!
+  frequency: DonationFrequency!
+  campaignId: ID!
+  firstName: String
+  lastName: String
+  email: String
+  isAnonymous: Boolean
+}
+
+type CheckoutSession {
+  id: ID!
+  url: String!
+}
+
+type Query {
+  campaigns(filter: CampaignFilter): [Campaign!]!
+  campaign(id: ID!): Campaign
+  emergencyAppeals(status: AppealStatus): [EmergencyAppeal!]!
+  emergencyAppeal(id: ID!): EmergencyAppeal
+  emergencyAppealBySlug(slug: String!): EmergencyAppeal
+}
+
+input CampaignFilter {
+  isActive: Boolean
+}
+
+type Mutation {
+  createCheckoutSession(input: CreateDonationInput!): CheckoutSession!
+}

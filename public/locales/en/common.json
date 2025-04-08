@@ -1,0 +1,58 @@
+{
+  "about_us": "About Us",
+  "our_work": "Our Work",
+  "donate": "Donate",
+  "emergency_appeals": "Emergency Appeals",
+  "contact": "Contact",
+  "donate_now": "Donate Now",
+  
+  "hero": {
+    "banner1": {
+      "title": "Help Rebuild Gaza",
+      "subtitle": "Your donation provides essential aid to Palestinian families in need"
+    },
+    "banner2": {
+      "title": "Emergency Medical Relief",
+      "subtitle": "Support urgent medical supplies and healthcare for the injured"
+    },
+    "banner3": {
+      "title": "Clean Water Initiative",
+      "subtitle": "Help provide clean water to families in crisis"
+    }
+  },
+  "donate": {
+    "title": "Make a Donation",
+    "pageTitle": "Support Our Cause",
+    "campaignTitle": "Donate to {{campaign}}",
+    "selectAmount": "Select Amount",
+    "customAmount": "Custom Amount",
+    "frequency": {
+      "one-time": "One-time",
+      "monthly": "Monthly",
+      "annual": "Annual"
+    },
+    "campaign": "Select Campaign",
+    "selectCampaign": "Choose a campaign",
+    "submitButton": "Donate Now",
+    "otherWays": "Other Ways to Support",
+    "contactInfo": "For large donations or corporate giving, please contact us at donations@qatarat.org",
+    "thankYou": "Thank you for your generosity!"
+  },
+  "appeals": {
+    "pageTitle": "Emergency Appeals",
+    "pageDescription": "Your support makes a difference. Join us in providing urgent assistance to those in need across Palestine and beyond.",
+    "filters": {
+      "all": "All Appeals",
+      "urgent": "Urgent",
+      "active": "Active",
+      "closed": "Completed"
+    },
+    "status": {
+      "active": "Active",
+      "closed": "Completed",
+      "urgent": "Urgent"
+    },
+    "donate": "Donate",
+    "learnMore": "Learn More"
+  }
+}

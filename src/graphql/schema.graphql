@@ -1,0 +1,64 @@
+type Campaign {
+  id: ID!
+  slug: String!
+  title: String!
+  description: String!
+  headerImage: String
+  status: CampaignStatus!
+  goal: Float!
+  raised: Float!
+  contentBlocks: [ContentBlock!]!
+  timeline: [TimelineItem!]!
+}
+
+enum CampaignStatus {
+  Active
+  Closed
+  Urgent
+}
+
+type ContentBlock {
+  id: ID!
+  type: ContentBlockType!
+  title: String
+  content: String!
+  media: String
+}
+
+enum ContentBlockType {
+  text
+  image
+  video
+  quote
+}
+
+type TimelineItem {
+  id: ID!
+  date: String!
+  title: String!
+  description: String!
+  media: String
+}
+
+type TeamMember {
+  id: ID!
+  name: String!
+  role: String!
+  bio: String!
+  image: String
+}
+
+type AboutContent {
+  mission: String!
+  vision: String!
+  values: String!
+  story: String!
+  headerImage: String
+  teamMembers: [TeamMember!]!
+}
+
+type Query {
+  campaigns: [Campaign!]!
+  campaign(slug: String!): Campaign
+  aboutContent: AboutContent!
+}
